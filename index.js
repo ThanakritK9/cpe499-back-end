@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/api/series", SerieRoute);
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('My API Thanakrit Phancharoen (Golfkrit) 6401713')
   })
 
 mongoose.connect('mongodb+srv://mongo:1234@cluster0.l33htiv.mongodb.net/node-crud?retryWrites=true&w=majority&appName=Cluster0')
